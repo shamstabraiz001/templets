@@ -1,0 +1,262 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.navbar nav{   
+    display: flex;
+   
+}
+.navbar ul{
+    list-style-type: none;
+}
+#main-cont{
+    margin: 0%;
+    padding: 0%;
+}
+.main-box{
+    display: flex;
+}
+.side{
+    width: 30%;
+}
+#main-cont img{
+    width: 400px;
+    
+}
+.table{
+    border: 1px solid black;
+    height: 35rem; 
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+.table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-wrap: nowrap;
+}
+
+.table tr th{
+    background-color: black !important;
+    color: #fff ;
+    padding: 5px;
+    text-wrap: nowrap;
+}
+.main-box2{
+    width: 70%;
+  
+}
+.main-box2 h1{
+    font-size: 60px;
+    text-align: right;
+    padding-right: 30px;
+    margin-top:200px;
+}
+.main-box2 p {
+    text-align: right;
+    padding-right: 30px;
+    margin: 0%;
+}
+#main-cont2{
+    margin-top: 20px;
+    
+}
+
+.main-box3{
+    display: flex;
+
+}
+.main-box33{
+    background-color: rgba(0,0,0,0.2);
+    width: 50%;
+    text-align: center;
+
+}
+.main-box33 h1{
+    font-size: 60px;
+    text-wrap: nowrap;
+}
+.main-box33 h2{
+    font-size: 40px;
+}
+
+.main-box34{
+    background-color: rgba(0,0,0,0.1);
+    width: 50%;
+    text-align: center;
+
+}
+.main-box34 p{
+    font-size: 40px;
+
+    font-family: 'Times New Roman', serif;
+}
+
+.main-box34 img{
+    width: 400px;
+}
+
+
+
+
+
+#main-cont3{
+    margin-top: 20px;
+}
+
+ .main-box4{
+    display: flex;
+    justify-content: space-evenly;
+      
+}
+#main-cont3 .main-box4 .list{
+    border: 1px solid gray;
+    width: 300px;
+    
+}
+#main-cont3 .main-box4 .list ul li{
+    list-style-type: none;
+    margin: 40px 0;
+    margin: 40px 0;
+    text-wrap: nowrap; 
+
+}
+#main-cont3 .main-box3 .flx{
+    width:50%;
+    padding-left: 100px;
+}
+
+.flx{
+    display: flex;
+    text-align: center;
+}
+.cards-list .card-list-ul{
+    font-size: 22px;
+    font-weight: bolder;
+    border: 1px solid gray;
+    border-top: 4px solid red;
+    border-collapse: collapse;
+    text-wrap: nowrap;
+    margin-left: 85.5px;
+    width:260px;
+    margin-bottom: 0;
+}
+.cards-list{
+    display: flex;
+    justify-content:start;
+}
+.cards-list .card-list-ul2{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    border: 1px solid gray;
+    border-top: 4px solid red;
+    border-collapse: collapse;
+    text-wrap: nowrap;
+    width: 69%;
+    padding: 2px 0;
+    margin-left: 4rem;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.cards-list .card-list-ul2 li{
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 25px;
+    width: 100%; 
+}
+.flx img{
+    width: 200px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+.flx p{
+    font-weight: bold;
+    color: red;
+}
+#last-cont{
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);  
+}
+.last-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.img{
+    width: 100%;
+}
+.img img{
+    width: 500px;
+}
+.head h1{
+    font-size: 50px;
+    padding-top: 50px;
+    text-wrap: nowrap;
+    
+}
+.head p{
+    font-size: 25px;
+    color: rgb(229, 58, 58);
+    text-wrap: nowrap;
+}
+.last-img{
+    width: 100%;
+}
+.last-img img{
+    width: 80%;
+}
+
+                        /* responsive */
+
+
+@media screen and (max-width: 992px) {
+
+    .main-box2 h1 {
+        font-size: 40px;
+    }
+    .main-box33 h1{
+        font-size: 40px;
+    }
+    .cards-list .card-list-ul{
+        margin-left: 0 !important;
+    }
+    .main-box4{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .main-box .list ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .flx{
+        display: flex;
+        flex-direction: column;
+        /* width: 71%; */
+    }
+    #main-cont3 .main-box4 .list{
+        width: 100%;
+    }
+    #main-cont3 .main-box4 .list ul{
+        display: flex;
+    }
+    #main-cont3 .main-box4 .list ul li{
+        margin:0 20px;
+        text-wrap: wrap;
+
+        
+    }
+    .flx img{
+        width: 250px;
+        height: 200px;
+    }
+}
